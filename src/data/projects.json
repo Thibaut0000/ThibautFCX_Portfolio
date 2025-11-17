@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Twitter-like Social Media App",
+    "description": "A full-featured social media platform with real-time updates, user authentication, post creation, likes, comments, and direct messaging using WebSocket technology.",
+    "image": "/projects/social-media.jpg",
+    "tags": ["React", "Node.js", "MongoDB", "JWT", "Express", "WebSocket"],
+    "github": "https://github.com/ThibautFCX/twitter-clone",
+    "demo": null,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "HR Onboarding Platform",
+    "description": "Internal enterprise application for Pilot Corporation to streamline employee onboarding process. Features automated PDF generation, email workflows, and document management.",
+    "image": "/projects/hr-platform.jpg",
+    "tags": ["React", "Node.js", "PDF Generation", "Email Automation", "SQL"],
+    "github": null,
+    "demo": null,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "E-commerce Dropshipping Platform",
+    "description": "Shopify-based dropshipping store with advanced SEO optimization, custom theme development, UX/UI improvements, and automated inventory management.",
+    "image": "/projects/ecommerce.jpg",
+    "tags": ["Shopify", "JavaScript", "Liquid", "SEO", "UX/UI Design"],
+    "github": null,
+    "demo": null,
+    "featured": true
+  }
+]
