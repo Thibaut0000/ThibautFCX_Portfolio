@@ -1,30 +1,42 @@
-# 🚀 Modern Portfolio Website
+# Portfolio - Thibaut Faucheux
 
-A professional portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
+A modern, high-performance portfolio website showcasing software development projects and technical expertise. Built with React 18, Vite 5, and Tailwind CSS 3 for optimal performance and maintainability.
 
-## ✨ Features
+## Features
 
-- 🎨 Modern and clean design
-- 🌓 Dark/Light mode toggle
-- 🌍 Bilingual support (EN/FR) with react-i18next
-- 📱 Fully responsive (mobile, tablet, desktop)
-- ✉️ Functional contact form with EmailJS
-- 🎭 Smooth animations with Framer Motion
-- 🎯 SEO optimized with meta tags
-- 📦 Easy to customize and deploy
+- **Theme Management**: Dynamic dark/light mode with persistent user preferences via localStorage
+- **Internationalization**: Full bilingual support (English/French) using react-i18next with namespace-based translations
+- **Responsive Design**: Mobile-first approach with breakpoint optimization for all screen sizes
+- **Contact Integration**: Serverless contact form powered by EmailJS API with client-side validation
+- **Animation System**: Declarative animations using Framer Motion with optimized performance
+- **SEO Optimization**: Complete meta tag implementation including Open Graph and structured data
+- **Type-Safe Routing**: Client-side navigation with React Router DOM v6
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-- **React** - UI library
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **React Router** - Navigation
-- **Framer Motion** - Animations
-- **react-i18next** - Internationalization
-- **EmailJS** - Contact form
-- **React Icons** - Icon library
+### Core Framework
+- **React 18.2.0** - Component-based UI library with concurrent rendering
+- **Vite 5.0.8** - Next-generation frontend build tool with HMR and optimized bundling
 
-## 🚀 Getting Started
+### Styling & UI
+- **Tailwind CSS 3.3.6** - Utility-first CSS framework with JIT compiler
+- **PostCSS 8.4.32** - CSS transformation pipeline with autoprefixer
+- **React Icons 4.12.0** - SVG icon library with tree-shaking support
+
+### Routing & Navigation
+- **React Router DOM 6.20.0** - Declarative routing with nested routes and lazy loading
+
+### Animation
+- **Framer Motion 10.16.16** - Production-ready motion library with spring physics
+
+### Internationalization
+- **react-i18next 13.5.0** - React bindings for i18next
+- **i18next 23.7.11** - Internationalization framework with plugin architecture
+
+### Forms & Integration
+- **EmailJS Browser 3.11.0** - Client-side email service integration
+
+## Installation & Setup
 
 ### Prerequisites
 
