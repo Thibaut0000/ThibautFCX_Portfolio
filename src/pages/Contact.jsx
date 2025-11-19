@@ -31,9 +31,9 @@ const Contact = () => {
 
     try {
       // Replace with your EmailJS credentials
-      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'your_service_id'
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'your_template_id'
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'your_public_key'
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_c8b8hxt'
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_3omwkn8'
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'GGhmt4y3zrMAltypD'
 
       await emailjs.send(
         serviceId,
