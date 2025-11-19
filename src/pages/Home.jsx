@@ -2,7 +2,11 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { HiArrowRight } from 'react-icons/hi'
+import { TypeAnimation } from 'react-type-animation'
 import ParticlesBackground from '../components/home/ParticlesBackground'
+import TechOrbit from '../components/home/TechOrbit'
+import StatsBar from '../components/home/StatsBar'
+import SEO from '../components/common/SEO'
 
 const Home = () => {
   const { t } = useTranslation()
@@ -31,9 +35,14 @@ const Home = () => {
   }
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated Background */}
-      <ParticlesBackground />
+    <>
+      <SEO 
+        path="/"
+        keywords="Thibaut Faucheux, portfolio, software developer, full-stack, React, Node.js, CESI, Pilot Corporation"
+      />
+      <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Animated Background */}
+        <ParticlesBackground />
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-gray-900 opacity-90" />
@@ -55,8 +64,23 @@ const Home = () => {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-display">
                 <span className="gradient-text">{t('home.name')}</span>
               </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
-                {t('home.role')}
+              <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 min-h-[3rem] flex items-center">
+                <TypeAnimation
+                  sequence={[
+                    t('home.roles.0'),
+                    2000,
+                    t('home.roles.1'),
+                    2000,
+                    t('home.roles.2'),
+                    2000,
+                    t('home.roles.3'),
+                    2000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                  cursor={true}
+                />
               </h2>
             </motion.div>
 
@@ -92,44 +116,22 @@ const Home = () => {
                 </motion.button>
               </Link>
             </motion.div>
+
+            {/* Stats Bar */}
+            <motion.div variants={itemVariants}>
+              <StatsBar />
+            </motion.div>
           </motion.div>
 
-          {/* Right Column - Image/Illustration */}
+          {/* Right Column - Tech Orbit Animation */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="relative hidden lg:block"
+            className="relative"
           >
-            <div className="relative w-full aspect-square">
-              {/* Placeholder for profile image */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 animate-gradient opacity-20 blur-3xl" />
-              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 flex items-center justify-center">
-                  <span className="text-8xl font-bold text-white opacity-50">
-                    TF
-                  </span>
-                </div>
-                {/* Replace the div above with your actual image:
-                <img
-                  src="/profile.jpg"
-                  alt="Your Name"
-                  className="w-full h-full object-cover"
-                />
-                */}
-              </div>
-              
-              {/* Floating elements */}
-              <motion.div
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-                className="absolute -top-4 -right-4 w-20 h-20 bg-indigo-500 rounded-lg opacity-20 blur-xl"
-              />
-              <motion.div
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 4, repeat: Infinity }}
-                className="absolute -bottom-4 -left-4 w-24 h-24 bg-purple-500 rounded-full opacity-20 blur-xl"
-              />
+            <div className="relative w-full aspect-square flex items-center justify-center max-w-lg mx-auto lg:max-w-none">
+              <TechOrbit />
             </div>
           </motion.div>
         </div>
@@ -150,7 +152,8 @@ const Home = () => {
           <div className="w-1.5 h-3 bg-gray-400 dark:bg-gray-600 rounded-full mt-2" />
         </motion.div>
       </motion.div>
-    </div>
+      </div>
+    </>
   )
 }
 

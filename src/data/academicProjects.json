@@ -1,0 +1,333 @@
+[
+  {
+    "year": "2022-2023",
+    "title": "1ère Année - Cycle Préparatoire",
+    "semester": "Prépa Intégrée",
+    "projects": [
+      {
+        "id": "prep-1-db",
+        "title": "Projet Base de Données - Modélisation Complète",
+        "description": "Conception complète d'une base de données relationnelle avec documentation exhaustive : dictionnaire de données, modèle conceptuel (MCD), modèle logique (MLD), modèle physique (MPD), et arbres algébriques des requêtes. Organisation GANTT pour la gestion de projet.",
+        "image": "/projects/database-project.jpg",
+        "technologies": ["MySQL", "MCD/MLD/MPD", "SQL", "Modélisation", "GANTT"],
+        "category": "Database",
+        "highlights": [
+          "Dictionnaire de données complet",
+          "Modèles conceptuel, logique et physique",
+          "Arbres algébriques optimisés",
+          "Documentation technique détaillée"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-1-sound",
+        "title": "Communication par Sons Cryptés",
+        "description": "Programme Python de communication inter-ordinateurs utilisant des sons cryptés. Un ordinateur crypte un message et émet un son, intercepté et décrypté par un second ordinateur. Développement en Jupyter Notebook.",
+        "image": "/projects/sound-crypto.jpg",
+        "technologies": ["Python", "Jupyter", "Cryptographie", "Audio Processing"],
+        "category": "Security",
+        "highlights": [
+          "Cryptage/décryptage de messages",
+          "Transmission audio entre machines",
+          "Traitement du signal",
+          "Documentation Jupyter"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-1-flowgorithm",
+        "title": "Système d'Authentification - Flowgorithm",
+        "description": "Simulation d'un système d'authentification par cartes avec gestion de problèmes et cas d'usage. Développement algorithmique avec Flowgorithm.",
+        "image": "/projects/auth-system.jpg",
+        "technologies": ["Flowgorithm", "Algorithmique", "Logique"],
+        "category": "Algorithm",
+        "highlights": [
+          "Simulation d'authentification",
+          "Gestion de cartes",
+          "Résolution de problèmes logiques",
+          "Organigrammes détaillés"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-1-arduino",
+        "title": "Station Météo Embarquée - Arduino",
+        "description": "Conception et réalisation d'une station météo connectée avec Arduino. Capteurs de température, humidité, pression atmosphérique avec affichage LCD.",
+        "image": "/projects/weather-station.jpg",
+        "technologies": ["Arduino", "C", "Capteurs", "Systèmes Embarqués"],
+        "category": "Embedded",
+        "highlights": [
+          "Capteurs multiples (temp, humidité, pression)",
+          "Affichage LCD",
+          "Programmation embarquée",
+          "Système temps réel"
+        ],
+        "confidential": true
+      }
+    ]
+  },
+  {
+    "year": "2023-2024",
+    "title": "2ème Année - Cycle Préparatoire",
+    "semester": "Prépa Intégrée",
+    "projects": [
+      {
+        "id": "prep-2-network",
+        "title": "Conception Réseau d'une Ville - Cisco Packet Tracer",
+        "description": "Projet réseau et systèmes d'envergure : raccordement complet d'une ville au réseau avec gestion IPv4/IPv6. Intégration d'entreprises avec besoins spécifiques, sécurisation et robustesse du système.",
+        "image": "/projects/network-city.jpg",
+        "technologies": ["Cisco Packet Tracer", "IPv4", "IPv6", "Routing", "Sécurité Réseau"],
+        "category": "Network",
+        "highlights": [
+          "Architecture réseau complexe",
+          "Gestion IPv4 et IPv6",
+          "Sécurisation des flux",
+          "Besoins entreprises spécifiques"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-2-web",
+        "title": "Plateforme de Mise en Relation Étudiants-Entreprises",
+        "description": "Site web type Indeed pour connecter étudiants et entreprises. Administration Apache, développement frontend/backend, Progressive Web App avec authentification et gestion de profils.",
+        "image": "/projects/job-platform.jpg",
+        "technologies": ["HTML", "CSS", "JavaScript", "Apache", "PWA", "PHP"],
+        "category": "Web",
+        "highlights": [
+          "Interface étudiants et entreprises",
+          "Système de matching",
+          "PWA pour mobile",
+          "Administration Apache"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-2-embedded",
+        "title": "Génie Logiciel - Calcul de Complexité",
+        "description": "Projet de génie logiciel embarqué en C++ : analyse de complexité algorithmique, architecture logicielle, gestion de pile en assembleur, et création d'une application de gestion de stocks avec interface WinForms sous Visual Studio.",
+        "image": "/projects/stock-management.jpg",
+        "technologies": ["C++", "WinForms", "Visual Studio", "Assembleur", "Linux"],
+        "category": "Software Engineering",
+        "highlights": [
+          "Analyse de complexité",
+          "Architecture C++",
+          "Interface WinForms",
+          "Gestion de pile assembleur"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "prep-2-stage",
+        "title": "Stage - Application de Gestion Dérogations (Pilot Corporation)",
+        "description": "Développement d'une application de gestion des dérogations et consignes sur Softyflow. Stack moderne avec MongoDB, JavaScript, HTML/CSS et Vue.js.",
+        "image": "/projects/pilot-derogations.jpg",
+        "technologies": ["MongoDB", "JavaScript", "Vue.js", "HTML", "CSS", "Softyflow"],
+        "category": "Internship",
+        "highlights": [
+          "Application métier complète",
+          "Base de données MongoDB",
+          "Interface Vue.js réactive",
+          "Gestion de workflow"
+        ],
+        "confidential": false
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "title": "Projets Personnels",
+    "semester": "Freelance",
+    "projects": [
+      {
+        "id": "perso-portfolio",
+        "title": "Portfolio Professionnel - React + Vite",
+        "description": "Portfolio personnel moderne et interactif développé avec React 18 et Vite. Architecture complète avec animations Framer Motion, internationalisation (EN/FR), thème sombre, et design responsive. Intégration EmailJS, optimisation SEO, et déploiement continu.",
+        "image": "/projects/portfolio.jpg",
+        "technologies": ["React", "Vite", "Tailwind CSS", "Framer Motion", "i18next", "EmailJS"],
+        "category": "Web Development",
+        "highlights": [
+          "Architecture React moderne avec hooks",
+          "Animations complexes avec Framer Motion",
+          "Internationalisation FR/EN",
+          "Design system avec Tailwind CSS",
+          "Dark mode et responsive design",
+          "Optimisation performances (Vite)"
+        ],
+        "confidential": false,
+        "github": "https://github.com/Thibaut0000/ThibautFCX_Portfolio"
+      },
+      {
+        "id": "perso-shopify",
+        "title": "Melting Time - Boutique E-commerce Shopify",
+        "description": "Création complète d'une boutique en ligne sur Shopify avec personnalisation du thème, optimisation SEO, et gestion des produits.",
+        "image": "/projects/melting-time.jpg",
+        "technologies": ["Shopify", "Liquid", "JavaScript", "SEO", "E-commerce"],
+        "category": "E-commerce",
+        "highlights": [
+          "Boutique en ligne fonctionnelle",
+          "Personnalisation thème",
+          "Optimisation SEO",
+          "Gestion produits et paiements"
+        ],
+        "confidential": false,
+        "demo": "https://melting-time.com"
+      }
+    ]
+  },
+  {
+    "year": "2024-2025",
+    "title": "3ème Année - Cycle Ingénieur + Alternance Pilot Corporation",
+    "semester": "1ère Année Ingénieur",
+    "projects": [
+      {
+        "id": "pilot-onboarding",
+        "title": "Application Onboarding RH - Pilot Corporation",
+        "description": "Développement d'une plateforme d'onboarding pour les nouveaux collaborateurs. Interface simple et intuitive avec intégration d'APIs internes via Postman. Gestion complète du processus d'intégration des employés.",
+        "image": "/projects/pilot-onboarding.jpg",
+        "technologies": ["Vue.js", "HTML", "CSS", "MongoDB", "API REST", "Postman"],
+        "category": "Enterprise Application",
+        "highlights": [
+          "Interface utilisateur intuitive pour nouveaux collaborateurs",
+          "Intégration d'APIs internes",
+          "Tests et documentation avec Postman",
+          "Base de données MongoDB",
+          "Automatisation du processus d'onboarding"
+        ],
+        "confidential": false
+      },
+      {
+        "id": "pilot-disputes",
+        "title": "Gestion des Litiges et Workflow - Pilot Corporation",
+        "description": "Application complète de gestion des litiges avec automatisation de workflows. Système d'emails automatiques entre utilisateurs via Softyflow, dashboard de suivi, archivage des données pour statistiques. Gestion des PV de réceptions qualité avec qualification des problèmes via images, génération automatique de rapports, emails et PDFs.",
+        "image": "/projects/pilot-disputes.jpg",
+        "technologies": ["Softyflow", "MongoDB", "Vue.js", "PDF Generation", "Email Automation", "Workflow"],
+        "category": "Enterprise Application",
+        "highlights": [
+          "Automatisation de workflows complexes",
+          "Système d'emails automatiques inter-utilisateurs",
+          "Dashboard de suivi et KPIs",
+          "Gestion qualité avec upload d'images",
+          "Génération automatique de rapports/emails/PDFs",
+          "Archivage et statistiques"
+        ],
+        "confidential": false
+      },
+      {
+        "id": "pilot-stock-alerts",
+        "title": "Table de Meilleur Dispo - Intégration Intuiflow/AX - Pilot Corporation",
+        "description": "Application servant de pont entre Intuiflow et Microsoft Dynamics AX. Centralisation et typage des alertes sur produits proches de la rupture de stock. Import en masse via CSV avec workflow d'automatisation des statuts d'alertes.",
+        "image": "/projects/pilot-stock.jpg",
+        "technologies": ["Vue.js", "Microsoft Dynamics AX", "Intuiflow", "CSV", "MongoDB", "Workflow Automation"],
+        "category": "Enterprise Application",
+        "highlights": [
+          "Intégration Intuiflow ↔ Microsoft AX",
+          "Gestion des ruptures de stock",
+          "Import en masse via CSV",
+          "Workflow automatisé de statuts",
+          "Centralisation des alertes",
+          "Typage et catégorisation intelligente"
+        ],
+        "confidential": false
+      },
+      {
+        "id": "ing-1-twitter",
+        "title": "Twitter-like - Réseau Social",
+        "description": "Application de réseau social complète avec fonctionnalités temps réel : posts, likes, commentaires, profils utilisateurs. Architecture moderne avec React, Tailwind CSS, MongoDB et Docker.",
+        "image": "/projects/twitter-clone.jpg",
+        "technologies": ["React", "Tailwind CSS", "MongoDB", "Docker", "Node.js", "WebSocket"],
+        "category": "Web Development",
+        "highlights": [
+          "Fonctionnalités temps réel",
+          "Authentification JWT",
+          "Interface responsive Tailwind",
+          "Déploiement Docker"
+        ],
+        "confidential": true,
+        "github": "https://github.com/Thibaut0000"
+      },
+      {
+        "id": "ing-1-easysave-v1",
+        "title": "EasySave v1.0 - Application Console",
+        "description": "Logiciel de gestion de sauvegardes en .NET Core. Application console avec limitation à 5 travaux simultanés, journalisation et suivi d'état via fichiers JSON.",
+        "image": "/projects/easysave-v1.jpg",
+        "technologies": [".NET Core", "C#", "JSON", "Console App"],
+        "category": "Software Engineering",
+        "highlights": [
+          "Gestion de 5 travaux de sauvegarde",
+          "Journalisation JSON",
+          "État d'avancement en temps réel",
+          "Architecture .NET Core"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "ing-1-easysave-v3",
+        "title": "EasySave v3.0 - Interface WPF",
+        "description": "Évolution majeure d'EasySave avec interface graphique WPF. Contrôle individuel de chaque travail de sauvegarde (Play, Pause, Stop). Intègre toutes les fonctionnalités des versions précédentes.",
+        "image": "/projects/easysave-v3.jpg",
+        "technologies": ["WPF", ".NET", "C#", "MVVM", "Threading"],
+        "category": "Software Engineering",
+        "highlights": [
+          "Interface graphique WPF",
+          "Contrôles Play/Pause/Stop",
+          "Architecture MVVM",
+          "Gestion multi-threading"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "ing-1-active-directory",
+        "title": "Administration Active Directory",
+        "description": "Gestion complète d'une entreprise fictive : création et configuration de l'Active Directory avec gestion des droits, sécurités et politiques. Déploiement sur VMs Windows Server.",
+        "image": "/projects/active-directory.jpg",
+        "technologies": ["Active Directory", "Windows Server", "PowerShell", "VM", "Sécurité"],
+        "category": "System Administration",
+        "highlights": [
+          "Configuration AD complète",
+          "Gestion des droits et groupes",
+          "Politiques de sécurité",
+          "Infrastructure VM"
+        ],
+        "confidential": true
+      },
+      {
+        "id": "ing-1-research-ops",
+        "title": "Recherche Opérationnelle - Problème du Voyageur de Commerce",
+        "description": "Étude comparative d'algorithmes de résolution du TSP (Travelling Salesman Problem). Implémentation et analyse de l'algorithme de colonies de fourmis et autres heuristiques.",
+        "image": "/projects/tsp-research.jpg",
+        "technologies": ["Python", "Algorithmes", "Optimisation", "Heuristiques"],
+        "category": "Research",
+        "highlights": [
+          "Algorithme colonies de fourmis",
+          "Comparaison d'heuristiques",
+          "Analyse de complexité",
+          "Visualisation des résultats"
+        ],
+        "confidential": true
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "title": "4ème Année - Cycle Ingénieur",
+    "semester": "2ème Année Ingénieur (en cours)",
+    "projects": [
+      {
+        "id": "ing-2-bigdata",
+        "title": "Big Data - Centralisation Données CHU",
+        "description": "Projet Big Data pour un Centre Hospitalier Universitaire : centralisation et analyse de données massives. Stack Big Data avec Talend, Cloudera, Hive et Power BI pour la visualisation.",
+        "image": "/projects/bigdata-chu.jpg",
+        "technologies": ["Talend", "Cloudera", "Hive", "Power BI", "Big Data", "ETL"],
+        "category": "Big Data",
+        "highlights": [
+          "ETL avec Talend",
+          "Data Lake Cloudera",
+          "Requêtes Hive",
+          "Dashboards Power BI"
+        ],
+        "confidential": true,
+        "inProgress": true
+      }
+    ]
+  }
+]

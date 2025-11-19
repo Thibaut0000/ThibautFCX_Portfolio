@@ -38,7 +38,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-3">
+            <motion.img
+              src="/profilPicture.jpeg"
+              alt="Thibaut Faucheux"
+              className="w-10 h-10 rounded-full object-cover border-2 border-indigo-500 dark:border-indigo-400"
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.2 }}
+            />
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold gradient-text font-display"
@@ -80,6 +87,8 @@ const Navbar = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+              aria-label={isOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={isOpen}
             >
               {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
             </button>

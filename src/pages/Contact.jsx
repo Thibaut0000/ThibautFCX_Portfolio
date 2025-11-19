@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 import emailjs from '@emailjs/browser'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import { HiCheckCircle, HiXCircle } from 'react-icons/hi'
+import SEO from '../components/common/SEO'
+import { LoadingDots } from '../components/common/Loading'
 
 const Contact = () => {
   const { t } = useTranslation()
@@ -102,8 +104,15 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <>
+      <SEO 
+        title={t('contact.title')}
+        description={t('contact.description')}
+        path="/contact"
+        keywords="contact, email, hire, freelance, collaboration"
+      />
+      <div className="min-h-screen py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -215,17 +224,24 @@ const Contact = () => {
 
               {/* Submit Button */}
               <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+                whileHover={!isSubmitting ? { scale: 1.02 } : {}}
+                whileTap={!isSubmitting ? { scale: 0.98 } : {}}
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full py-4 rounded-lg font-semibold text-white transition-all shadow-lg hover:shadow-xl ${
+                className={`w-full py-4 rounded-lg font-semibold text-white transition-all shadow-lg hover:shadow-xl flex items-center justify-center space-x-2 ${
                   isSubmitting
                     ? 'bg-gray-400 cursor-not-allowed'
                     : 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700'
                 }`}
               >
-                {isSubmitting ? t('contact.form.sending') : t('contact.form.send')}
+                {isSubmitting ? (
+                  <>
+                    <LoadingDots />
+                    <span>{t('contact.form.sending')}</span>
+                  </>
+                ) : (
+                  <span>{t('contact.form.send')}</span>
+                )}
               </motion.button>
             </motion.form>
           </motion.div>
@@ -268,29 +284,30 @@ const Contact = () => {
               variants={itemVariants}
               className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl shadow-xl p-8 text-white"
             >
-              <h2 className="text-2xl font-bold mb-4">Let's Build Something Amazing!</h2>
+              <h2 className="text-2xl font-bold mb-4">{t('contact.info.title')}</h2>
               <p className="text-indigo-100 leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you need a website, a web application, or just want to connect, feel free to reach out!
+                {t('contact.info.description')}
               </p>
               <div className="mt-6 space-y-3">
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full" />
-                  <span className="text-indigo-100">Available for freelance work</span>
+                  <span className="text-indigo-100">{t('contact.info.freelance')}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full" />
-                  <span className="text-indigo-100">Open to full-time opportunities</span>
+                  <span className="text-indigo-100">{t('contact.info.fulltime')}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-white rounded-full" />
-                  <span className="text-indigo-100">Response within 24 hours</span>
+                  <span className="text-indigo-100">{t('contact.info.response')}</span>
                 </div>
               </div>
             </motion.div>
           </motion.div>
         </div>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

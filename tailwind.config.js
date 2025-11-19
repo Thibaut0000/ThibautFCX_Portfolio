@@ -30,6 +30,10 @@ export default {
         'float': 'float 6s ease-in-out infinite',
         'fadeIn': 'fadeIn 0.5s ease-in',
         'slideUp': 'slideUp 0.5s ease-out',
+        'orbit-slow': 'orbit 30s linear infinite',
+        'orbit-medium': 'orbit 20s linear infinite',
+        'orbit-fast': 'orbit 15s linear infinite',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
       },
       keyframes: {
         gradient: {
@@ -53,6 +57,14 @@ export default {
         slideUp: {
           '0%': { transform: 'translateY(20px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        orbit: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        pulseGlow: {
+          '0%, 100%': { opacity: '0.3', transform: 'scale(1)' },
+          '50%': { opacity: '0.6', transform: 'scale(1.05)' },
         },
       },
     },

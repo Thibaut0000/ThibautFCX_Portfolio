@@ -9,10 +9,16 @@
     "greeting": "Hi, I'm",
     "name": "Thibaut Faucheux",
     "role": "Computer Science Student & Software Developer",
+    "roles": ["Software Developer", "Full-Stack Engineer", "Computer Science Student", "Project Manager"],
     "tagline": "21-year-old engineering student building modern web applications at Pilot Corporation",
     "cta": {
       "projects": "View My Projects",
       "contact": "Contact Me"
+    },
+    "stats": {
+      "projects": "Projects",
+      "experience": "Years Experience",
+      "technologies": "Technologies"
     }
   },
   "about": {
@@ -20,8 +26,8 @@
     "subtitle": "Get to know me better",
     "bio": {
       "title": "Who I Am",
-      "description": "I'm Thibaut Faucheux, a 21-year-old engineering student passionate about building scalable web applications and solving complex technical challenges. Currently working as an Application Developer Apprentice at Pilot Corporation of Europe in Annecy, I combine academic learning with real-world professional experience.",
-      "education": "Pursuing Master of Engineering in Computer Science at CESI Lyon (2022-2027)",
+      "description": "I'm Thibaut Faucheux, a 21-year-old engineering student passionate about building scalable web applications and solving complex technical challenges. Currently pursuing my Engineering Degree in Computer Science at CESI Lyon while working as an Application Developer Apprentice at Pilot Corporation of Europe in Annecy, I combine top-tier academic education with hands-on professional experience.",
+      "education": "Engineering Degree in Computer Science at CESI Lyon (2024-2027)",
       "passion": "Passionate about full-stack development, modern web technologies, and continuous improvement",
       "goal": "Seeking internship and career opportunities to grow as a software engineer and create meaningful impact"
     },
@@ -29,19 +35,29 @@
       "title": "My Journey",
       "items": [
         {
-          "year": "2023 - Present",
+          "year": "2024 - 2027",
           "title": "Application Developer Apprentice",
-          "description": "Pilot Corporation of Europe - Developing HR onboarding platform with PDF generation and email automation"
+          "description": "Pilot Corporation of Europe, Annecy - Developing HR onboarding platform with PDF generation and email automation"
         },
         {
-          "year": "2022 - 2027",
-          "title": "Master of Engineering in Computer Science",
-          "description": "CESI Graduate School, Lyon - Focus on software engineering and agile methodologies"
+          "year": "2024 - 2027",
+          "title": "Engineering Degree - Computer Science",
+          "description": "CESI Engineering School, Lyon - Specialization in computer science, software engineering and agile methodologies"
         },
         {
           "year": "2024",
-          "title": "Freelance Full-Stack Developer",
-          "description": "Built Twitter-like social media app and e-commerce platforms with modern tech stack"
+          "title": "Software Developer Intern",
+          "description": "Pilot Corporation of Europe - End-of-preparatory-cycle internship that led to my apprenticeship contract"
+        },
+        {
+          "year": "2022 - 2024",
+          "title": "Integrated Preparatory Program",
+          "description": "CESI Engineering School, Lyon - General engineering sciences foundation program"
+        },
+        {
+          "year": "2022",
+          "title": "High School Diploma (Baccalauréat)",
+          "description": "Majors: Mathematics, Physics-Chemistry, Life Sciences - Advanced Mathematics and European English options"
         }
       ]
     },
@@ -53,14 +69,366 @@
       "languages": "Languages",
       "soft": "Soft Skills"
     },
-    "resume": "Download Resume"
+    "languages": {
+      "title": "Languages",
+      "french": "French",
+      "frenchLevel": "Native",
+      "english": "English",
+      "englishLevel": "B2 Level",
+      "toeic": "TOEIC Score"
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "teamwork": "Teamwork",
+      "problemSolving": "Problem Solving",
+      "projectManagement": "Project Management",
+      "communication": "Communication",
+      "timeManagement": "Time Management",
+      "adaptability": "Adaptability"
+    },
+    "interests": {
+      "title": "Interests & Hobbies",
+      "running": "Running",
+      "runningDesc": "Marathon enthusiast and regular runner",
+      "biking": "Biking",
+      "bikingDesc": "Mountain and road cycling lover",
+      "techBlogs": "Tech Blogs",
+      "techBlogsDesc": "Following latest trends and innovations"
+    },
+    "certifications": {
+      "title": "Certifications & Achievements",
+      "anssi": "ANSSI Cybersecurity",
+      "toeic": "TOEIC English",
+      "toeicScore": "785/990 - B2 Level",
+      "lvmh": "LVMH Inside Certificate",
+      "lvmhDesc": "Operations & Supply Chain, Retail & Client Experience",
+      "year": "Year"
+    },
+    "resume": "Download Resume",
+    "downloadCV": "Download CV"
   },
   "projects": {
     "title": "My Projects",
-    "subtitle": "Things I've built",
+    "subtitle": "Academic & Professional Journey",
     "viewCode": "View Code",
     "liveDemo": "Live Demo",
-    "techStack": "Tech Stack"
+    "techStack": "Tech Stack",
+    "confidentialityNote": "<strong>Confidentiality Notice:</strong> Most of these projects are subject to confidentiality policies. CESI's policy prohibits us from publicly sharing our academic project source code. Similarly, enterprise projects at Pilot Corporation contain confidential information that cannot be disclosed.",
+    "viewDetails": "View Details",
+    "keyPoints": "Key Points",
+    "technologies": "Technologies",
+    "confidential": "Confidential",
+    "inProgress": "In Progress",
+    "allProjects": "All Projects",
+    "project": "project",
+    "project_plural": "projects",
+    "totalProjects": "projects",
+    "yearsLabel": "academic years",
+    "categories": "categories",
+    "searchPlaceholder": "Search projects by name, technology...",
+    "resultsFound": "results found",
+    "tech": {
+      "MySQL": "MySQL",
+      "MCD/MLD/MPD": "CDM/LDM/PDM",
+      "SQL": "SQL",
+      "Modélisation": "Modeling",
+      "GANTT": "GANTT",
+      "Python": "Python",
+      "Jupyter": "Jupyter",
+      "Cryptographie": "Cryptography",
+      "Audio Processing": "Audio Processing",
+      "Flowgorithm": "Flowgorithm",
+      "Algorithmique": "Algorithms",
+      "Logique": "Logic",
+      "Arduino": "Arduino",
+      "C": "C",
+      "Capteurs": "Sensors",
+      "Systèmes Embarqués": "Embedded Systems",
+      "Cisco Packet Tracer": "Cisco Packet Tracer",
+      "IPv4": "IPv4",
+      "IPv6": "IPv6",
+      "Routing": "Routing",
+      "Sécurité Réseau": "Network Security",
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JavaScript": "JavaScript",
+      "Apache": "Apache",
+      "PWA": "PWA",
+      "PHP": "PHP",
+      "C++": "C++",
+      "WinForms": "WinForms",
+      "Visual Studio": "Visual Studio",
+      "Assembleur": "Assembly",
+      "Linux": "Linux",
+      "MongoDB": "MongoDB",
+      "Vue.js": "Vue.js",
+      "Softyflow": "Softyflow",
+      "React": "React",
+      "Vite": "Vite",
+      "Tailwind CSS": "Tailwind CSS",
+      "Framer Motion": "Framer Motion",
+      "i18next": "i18next",
+      "EmailJS": "EmailJS",
+      "Shopify": "Shopify",
+      "Liquid": "Liquid",
+      "SEO": "SEO",
+      "E-commerce": "E-commerce",
+      "API REST": "REST API",
+      "Postman": "Postman",
+      "PDF Generation": "PDF Generation",
+      "Email Automation": "Email Automation",
+      "Workflow": "Workflow",
+      "Microsoft Dynamics AX": "Microsoft Dynamics AX",
+      "Intuiflow": "Intuiflow",
+      "CSV": "CSV",
+      "Workflow Automation": "Workflow Automation",
+      "Docker": "Docker",
+      "Node.js": "Node.js",
+      "WebSocket": "WebSocket",
+      ".NET Core": ".NET Core",
+      "C#": "C#",
+      "JSON": "JSON",
+      "Console App": "Console App",
+      "WPF": "WPF",
+      ".NET": ".NET",
+      "MVVM": "MVVM",
+      "Threading": "Threading",
+      "Active Directory": "Active Directory",
+      "Windows Server": "Windows Server",
+      "PowerShell": "PowerShell",
+      "VM": "VM",
+      "Sécurité": "Security",
+      "Algorithmes": "Algorithms",
+      "Optimisation": "Optimization",
+      "Heuristiques": "Heuristics",
+      "Talend": "Talend",
+      "Cloudera": "Cloudera",
+      "Hive": "Hive",
+      "Power BI": "Power BI",
+      "Big Data": "Big Data",
+      "ETL": "ETL"
+    },
+    "years": {
+      "2022-2023": {
+        "title": "1st Year - Preparatory Cycle",
+        "semester": "Integrated Preparatory Program"
+      },
+      "2023-2024": {
+        "title": "2nd Year - Preparatory Cycle",
+        "semester": "Integrated Preparatory Program"
+      },
+      "2024": {
+        "title": "Personal Projects",
+        "semester": "Freelance"
+      },
+      "2024-2025": {
+        "title": "3rd Year - Engineering Cycle + Pilot Corporation Work-Study",
+        "semester": "1st Year Engineering"
+      },
+      "2025": {
+        "title": "4th Year - Engineering Cycle",
+        "semester": "2nd Year Engineering (in progress)"
+      }
+    },
+    "items": {
+      "prep-1-db": {
+        "title": "Database Project - Complete Modeling",
+        "description": "Complete relational database design with comprehensive documentation: data dictionary, conceptual model (CDM), logical model (LDM), physical model (PDM), and query algebraic trees. GANTT project management organization.",
+        "highlights": {
+          "0": "Complete data dictionary",
+          "1": "Conceptual, logical, and physical models",
+          "2": "Optimized algebraic trees",
+          "3": "Detailed technical documentation"
+        }
+      },
+      "prep-1-sound": {
+        "title": "Encrypted Sound Communication",
+        "description": "Python inter-computer communication program using encrypted sounds. One computer encrypts a message and emits a sound, intercepted and decrypted by a second computer. Development in Jupyter Notebook.",
+        "highlights": {
+          "0": "Message encryption/decryption",
+          "1": "Audio transmission between machines",
+          "2": "Signal processing",
+          "3": "Jupyter documentation"
+        }
+      },
+      "prep-1-flowgorithm": {
+        "title": "Authentication System - Flowgorithm",
+        "description": "Card-based authentication system simulation with problem management and use cases. Algorithmic development with Flowgorithm.",
+        "highlights": {
+          "0": "Authentication simulation",
+          "1": "Card management",
+          "2": "Logical problem solving",
+          "3": "Detailed flowcharts"
+        }
+      },
+      "prep-1-arduino": {
+        "title": "Embedded Weather Station - Arduino",
+        "description": "Design and implementation of a connected weather station with Arduino. Temperature, humidity, and atmospheric pressure sensors with LCD display.",
+        "highlights": {
+          "0": "Multiple sensors (temp, humidity, pressure)",
+          "1": "LCD display",
+          "2": "Embedded programming",
+          "3": "Real-time system"
+        }
+      },
+      "prep-2-network": {
+        "title": "City Network Design - Cisco Packet Tracer",
+        "description": "Large-scale network and systems project: complete city network connection with IPv4/IPv6 management. Integration of companies with specific needs, system security and robustness.",
+        "highlights": {
+          "0": "Complex network architecture",
+          "1": "IPv4 and IPv6 management",
+          "2": "Traffic security",
+          "3": "Specific enterprise requirements"
+        }
+      },
+      "prep-2-web": {
+        "title": "Student-Company Connection Platform",
+        "description": "Indeed-like website to connect students and companies. Apache administration, frontend/backend development, Progressive Web App with authentication and profile management.",
+        "highlights": {
+          "0": "Student and company interfaces",
+          "1": "Matching system",
+          "2": "PWA for mobile",
+          "3": "Apache administration"
+        }
+      },
+      "prep-2-embedded": {
+        "title": "Software Engineering - Complexity Calculation",
+        "description": "Embedded software engineering project in C++: algorithmic complexity analysis, software architecture, assembly stack management, and creation of a stock management application with WinForms interface in Visual Studio.",
+        "highlights": {
+          "0": "Complexity analysis",
+          "1": "C++ architecture",
+          "2": "WinForms interface",
+          "3": "Assembly stack management"
+        }
+      },
+      "prep-2-stage": {
+        "title": "Internship - Derogation Management App (Pilot Corporation)",
+        "description": "Development of a derogation and instruction management application on Softyflow. Modern stack with MongoDB, JavaScript, HTML/CSS, and Vue.js.",
+        "highlights": {
+          "0": "Complete business application",
+          "1": "MongoDB database",
+          "2": "Reactive Vue.js interface",
+          "3": "Workflow management"
+        }
+      },
+      "perso-portfolio": {
+        "title": "Professional Portfolio - React + Vite",
+        "description": "Modern and interactive personal portfolio developed with React 18 and Vite. Complete architecture with Framer Motion animations, internationalization (EN/FR), dark theme, and responsive design. EmailJS integration, SEO optimization, and continuous deployment.",
+        "highlights": {
+          "0": "Modern React architecture with hooks",
+          "1": "Complex animations with Framer Motion",
+          "2": "FR/EN internationalization",
+          "3": "Design system with Tailwind CSS",
+          "4": "Dark mode and responsive design",
+          "5": "Performance optimization (Vite)"
+        }
+      },
+      "perso-shopify": {
+        "title": "Melting Time - Shopify E-commerce Store",
+        "description": "Complete online store creation on Shopify with theme customization, SEO optimization, and product management.",
+        "highlights": {
+          "0": "Functional online store",
+          "1": "Theme customization",
+          "2": "SEO optimization",
+          "3": "Product and payment management"
+        }
+      },
+      "pilot-onboarding": {
+        "title": "HR Onboarding Application - Pilot Corporation",
+        "description": "Development of an onboarding platform for new employees. Simple and intuitive interface with internal API integration via Postman. Complete employee integration process management.",
+        "highlights": {
+          "0": "Intuitive user interface for new employees",
+          "1": "Internal API integration",
+          "2": "Testing and documentation with Postman",
+          "3": "MongoDB database",
+          "4": "Onboarding process automation"
+        }
+      },
+      "pilot-disputes": {
+        "title": "Dispute Management & Workflow - Pilot Corporation",
+        "description": "Complete dispute management application with workflow automation. Automatic email system between users via Softyflow, tracking dashboard, data archiving for statistics. Quality reception PV management with problem qualification via images, automatic generation of reports, emails and PDFs.",
+        "highlights": {
+          "0": "Complex workflow automation",
+          "1": "Automatic inter-user email system",
+          "2": "Tracking dashboard and KPIs",
+          "3": "Quality management with image upload",
+          "4": "Automatic generation of reports/emails/PDFs",
+          "5": "Archiving and statistics"
+        }
+      },
+      "pilot-stock-alerts": {
+        "title": "Best Available Table - Intuiflow/AX Integration - Pilot Corporation",
+        "description": "Application serving as a bridge between Intuiflow and Microsoft Dynamics AX. Centralization and typing of alerts on products near stockout. Bulk import via CSV with automated alert status workflow.",
+        "highlights": {
+          "0": "Intuiflow ↔ Microsoft AX integration",
+          "1": "Stockout management",
+          "2": "Bulk import via CSV",
+          "3": "Automated status workflow",
+          "4": "Alert centralization",
+          "5": "Intelligent typing and categorization"
+        }
+      },
+      "ing-1-twitter": {
+        "title": "Twitter-like - Social Network",
+        "description": "Complete social network application with real-time features: posts, likes, comments, user profiles. Modern architecture with React, Tailwind CSS, MongoDB and Docker.",
+        "highlights": {
+          "0": "Real-time features",
+          "1": "JWT authentication",
+          "2": "Tailwind responsive interface",
+          "3": "Docker deployment"
+        }
+      },
+      "ing-1-easysave-v1": {
+        "title": "EasySave v1.0 - Console Application",
+        "description": ".NET Core backup management software. Console application with limitation to 5 simultaneous jobs, logging and status tracking via JSON files.",
+        "highlights": {
+          "0": "Management of 5 backup jobs",
+          "1": "JSON logging",
+          "2": "Real-time progress status",
+          "3": ".NET Core architecture"
+        }
+      },
+      "ing-1-easysave-v3": {
+        "title": "EasySave v3.0 - WPF Interface",
+        "description": "Major evolution of EasySave with WPF graphical interface. Individual control of each backup job (Play, Pause, Stop). Integrates all features from previous versions.",
+        "highlights": {
+          "0": "WPF graphical interface",
+          "1": "Play/Pause/Stop controls",
+          "2": "MVVM architecture",
+          "3": "Multi-threading management"
+        }
+      },
+      "ing-1-active-directory": {
+        "title": "Active Directory Administration",
+        "description": "Complete management of a fictitious company: Active Directory creation and configuration with rights, security and policy management. Deployment on Windows Server VMs.",
+        "highlights": {
+          "0": "Complete AD configuration",
+          "1": "Rights and group management",
+          "2": "Security policies",
+          "3": "VM infrastructure"
+        }
+      },
+      "ing-1-research-ops": {
+        "title": "Operations Research - Travelling Salesman Problem",
+        "description": "Comparative study of TSP (Travelling Salesman Problem) solving algorithms. Implementation and analysis of ant colony algorithm and other heuristics.",
+        "highlights": {
+          "0": "Ant colony algorithm",
+          "1": "Heuristic comparison",
+          "2": "Complexity analysis",
+          "3": "Results visualization"
+        }
+      },
+      "ing-2-bigdata": {
+        "title": "Big Data - CHU Data Centralization",
+        "description": "Big Data project for a University Hospital Center: centralization and massive data analysis. Big Data stack with Talend, Cloudera, Hive and Power BI for visualization.",
+        "highlights": {
+          "0": "ETL with Talend",
+          "1": "Cloudera Data Lake",
+          "2": "Hive queries",
+          "3": "Power BI dashboards"
+        }
+      }
+    }
   },
   "contact": {
     "title": "Get In Touch",
@@ -77,6 +445,13 @@
     },
     "social": {
       "title": "Connect With Me"
+    },
+    "info": {
+      "title": "Let's Build Something Amazing!",
+      "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you need a website, a web application, or just want to connect, feel free to reach out!",
+      "freelance": "Available for freelance work",
+      "fulltime": "Open to full-time opportunities",
+      "response": "Response within 24 hours"
     }
   },
   "footer": {
