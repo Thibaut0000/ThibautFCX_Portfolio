@@ -337,8 +337,8 @@ const Projects = () => {
                       </span>
                     )}
                   </div>
-                  <h2 className="text-3xl font-bold mb-3">{selectedProject.title}</h2>
-                  <p className="text-indigo-100">{selectedProject.description}</p>
+                  <h2 className="text-3xl font-bold mb-3">{t(`projects.items.${selectedProject.id}.title`)}</h2>
+                  <p className="text-indigo-100">{t(`projects.items.${selectedProject.id}.description`)}</p>
                 </div>
 
                 {/* Modal Content */}
